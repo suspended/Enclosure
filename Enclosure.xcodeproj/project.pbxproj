@@ -16,13 +16,15 @@
 		42627FF21C78445A00DC69EC /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42627FF11C78445A00DC69EC /* GameBoard.swift */; };
 		42627FF41C790D5600DC69EC /* Game2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42627FF31C790D5600DC69EC /* Game2ViewController.swift */; };
 		6204250E972F9D33F452A800 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		B5313A9D1C7978B80027F990 /* socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5313A9C1C7978B80027F990 /* socket.swift */; };
+		B5313A9F1C7992420027F990 /* Game1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5313A9E1C7992420027F990 /* Game1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C0293DDB018C9E49E18FA83 /* Pods-Enclosure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enclosure.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Enclosure/Pods-Enclosure.debug.xcconfig"; sourceTree = "<group>"; };
 		20D8FAF0367CD33306C7BA45 /* Pods-MiniWar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniWar.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiniWar/Pods-MiniWar.release.xcconfig"; sourceTree = "<group>"; };
 		3FDF6B9C43FF0722F64A3577 /* Pods_Enclosure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Enclosure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		42627FDC1C783E0700DC69EC /* MiniWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MiniWar.app; path = Enclosure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42627FDC1C783E0700DC69EC /* Enclosure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enclosure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42627FDF1C783E0700DC69EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42627FE11C783E0700DC69EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		42627FE41C783E0700DC69EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,8 +33,9 @@
 		42627FEB1C783E0700DC69EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42627FF11C78445A00DC69EC /* GameBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
 		42627FF31C790D5600DC69EC /* Game2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game2ViewController.swift; sourceTree = "<group>"; };
-		42627FF71C7969B200DC69EC /* Game1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game1ViewController.swift; sourceTree = "<group>"; };
 		42627FF91C796A5000DC69EC /* 3.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.pic.jpg; sourceTree = "<group>"; };
+		B5313A9C1C7978B80027F990 /* socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = socket.swift; sourceTree = "<group>"; };
+		B5313A9E1C7992420027F990 /* Game1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +72,7 @@
 		42627FDD1C783E0700DC69EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42627FDC1C783E0700DC69EC /* MiniWar.app */,
+				42627FDC1C783E0700DC69EC /* Enclosure.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,7 +83,8 @@
 				42627FDF1C783E0700DC69EC /* AppDelegate.swift */,
 				42627FE11C783E0700DC69EC /* ViewController.swift */,
 				42627FF31C790D5600DC69EC /* Game2ViewController.swift */,
-				42627FF71C7969B200DC69EC /* Game1ViewController.swift */,
+				B5313A9E1C7992420027F990 /* Game1ViewController.swift */,
+				B5313A9C1C7978B80027F990 /* socket.swift */,
 				42627FE31C783E0700DC69EC /* Main.storyboard */,
 				42627FF91C796A5000DC69EC /* 3.pic.jpg */,
 				42627FF11C78445A00DC69EC /* GameBoard.swift */,
@@ -120,7 +124,7 @@
 			);
 			name = Enclosure;
 			productName = MiniWar;
-			productReference = 42627FDC1C783E0700DC69EC /* MiniWar.app */;
+			productReference = 42627FDC1C783E0700DC69EC /* Enclosure.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +228,9 @@
 			files = (
 				42627FE21C783E0700DC69EC /* ViewController.swift in Sources */,
 				42627FF21C78445A00DC69EC /* GameBoard.swift in Sources */,
+				B5313A9D1C7978B80027F990 /* socket.swift in Sources */,
 				42627FF41C790D5600DC69EC /* Game2ViewController.swift in Sources */,
+				B5313A9F1C7992420027F990 /* Game1ViewController.swift in Sources */,
 				42627FE01C783E0700DC69EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

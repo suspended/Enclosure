@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     @IBOutlet var entry: UIScrollView!
     
+    
+    
     var circle1 = UIButton()
     
     var circleLength: CGFloat = 0
