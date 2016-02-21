@@ -16,7 +16,11 @@ class Game1ViewController: UIViewController, GameBoardDelegate {
     @IBOutlet var player1row: Rows!
     @IBOutlet var player0row: Rows!
     
+    let new_socket = serve()
+    
     override func viewDidLoad() {
+        print("aaa")
+        new_socket.sendReady()
         super.viewDidLoad()
         board.layer.shadowOpacity = 0.3
         board.layer.shadowRadius = 1.5
